@@ -1,0 +1,15 @@
+html {
+    font-size: 10px;
+    background-color: rgb(122, 155, 199);
+}
+
+body,html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+
+#page {
+    display: flex;
+    height: 100vh;
+}
