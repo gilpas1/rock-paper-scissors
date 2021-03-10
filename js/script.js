@@ -4,7 +4,7 @@ function computerPlay(){
     let randIndex = Math.floor(Math.random() * 3);
     let symbol = SYMBOLS[randIndex];
     const computerPhoto = document.querySelector("img[name='cp']");
-    computerPhoto.src = `/pictures/${symbol}.png`;
+    computerPhoto.src = `pictures/${symbol}.png`;
     return symbol;
 }
 //check who is the winner according to the choices

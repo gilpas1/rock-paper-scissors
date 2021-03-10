@@ -21,6 +21,7 @@ header {
 main{
     height: 75vh;
     display: flex;
+    justify-content: center;
 }
 #p-selection, #c-selection{
     margin-left: 5vw;
