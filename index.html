@@ -15,19 +15,19 @@
             <main>
                 <div id="p-selection">
                     <h3>Player</h3>
-                    <img src="/pictures/rock.png">
-                    <img src="/pictures/paper.png">
-                    <img src="/pictures/sccissors.png">
+                    <img class="photo" name="rock" src="/pictures/rock.png">
+                    <img class="photo" name="paper" src="/pictures/paper.png">
+                    <img class="photo" name="scissors" src="/pictures/scissors.png">
                 </div>
                 <div id="score">
                     <p id="score-board">0 - 0</p>
-                    <p id="selections">Rock vs paper</p>
-                    <p id="winner">You Won</p>
+                    <p id="selections">Choose Wisely</p>
+                    <p id="winner">(click the picture)</p>
                 </div>
                 <div id="c-selection">
                     <h3>Computer</h3>
                     <img src="">
-                    <img src="/pictures/question-mark.png">
+                    <img name="cp" src="/pictures/question-mark.png">
                     <img src="">
                 </div>
             </main>
@@ -35,6 +35,9 @@
                 <button id="reset-btn">reset</button>
             </footer>
         </div>
-        <script>"js/script.js"</script>
+        <audio data-key="win" src="/sounds/openhat.wav"></audio>
+        <audio data-key="loss" src="/sounds/tom.wav"></audio>
+        <audio data-key="tie" src="/sounds/tink.wav"></audio>
+        <script src="/js/script.js"></script>
     </body>
 </html>

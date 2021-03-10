@@ -1,5 +1,5 @@
 html {
-    background-color: rgb(255, 255, 255);
+    background-color: lightgray;
 }
 body,html {
     margin: 0;
@@ -14,14 +14,12 @@ body,html {
 
 header {
     height: 12.9vh;
-    background-color: rgb(182, 182, 238);
     padding-top: 2vh;
     text-align: center;
     font-size: 3.1vh;
 }
 main{
     height: 75vh;
-    background-color: burlywood;
     display: flex;
 }
 #p-selection, #c-selection{
@@ -31,16 +29,18 @@ main{
     flex-direction: column;
     align-items: center;
     height: 100%;
-    background-color: cadetblue;
     font-size: 2vh;
 }
 img{
     height: 20vh;
     margin: 1vh;
+    border-radius: 15%;
+}
+.photo:hover{
+    transform: scale(1.1);
 }
 #score{
     width: 70vh;
-    background-color: cornflowerblue;
     display: flex;
     flex-direction: column;
     align-items: center;
