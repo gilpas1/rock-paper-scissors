@@ -11,7 +11,6 @@ body,html {
     height: 100vh;
     flex-direction: column;
 }
-
 header {
     height: 12.9vh;
     padding-top: 2vh;
